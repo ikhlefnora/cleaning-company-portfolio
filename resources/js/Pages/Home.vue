@@ -8,30 +8,42 @@
     <div class="w-[600px] h-[600px] bg-white rounded-full blur-3xl absolute -top-40 -left-40"></div>
     <div class="w-[500px] h-[500px] bg-cyan-300 rounded-full blur-3xl absolute bottom-0 right-0"></div>
   </div>
+<div class="relative max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+<div>
+  <h1 class="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">
+    Cleaning Services <br>
+    <span class="text-cyan-200">Professionnels</span>
+  </h1>
 
-  <div class="relative max-w-6xl mx-auto px-6 text-center">
+  <p class="text-lg md:text-xl text-white/90 mb-10">
+    Nous transformons vos espaces en environnements propres, sains et modernes.
+  </p>
 
-    <h1 class="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">
-      Cleaning Services <br> <span class="text-cyan-200">Professionnels</span>
-    </h1>
+  <div class="flex gap-4">
+    <a
+      href="#contact"
+      class="bg-white text-blue-600 px-6 py-3 rounded-xl font-semibold shadow-lg hover:scale-105 transition"
+    >
+      Devis gratuit
+    </a>
 
-    <p class="text-lg md:text-xl text-white/90 mb-10">
-      Nous transformons vos espaces en environnements propres, sains et modernes
-    </p>
-
-    <div class="flex justify-center gap-4">
-      <a href="#contact"
-   class="bg-white/90 backdrop-blur text-blue-600 px-6 py-3 rounded-xl font-semibold
-          hover:scale-105 hover:bg-white transition duration-300 shadow-lg">
-  Devis gratuit
-</a>
-
-      <a href="#services" class="border border-white px-6 py-3 rounded-xl hover:bg-white hover:text-blue-600 transition">
-        Nos services
-      </a>
+    <a
+      href="#services"
+      class="border border-white px-6 py-3 rounded-xl hover:bg-white hover:text-blue-600 transition"
+    >
+      Nos services
+    </a>
+  </div>
+</div>
+<div class="hidden md:block">
+  <img
+    src="/images/hero-cleaning.jpg"
+    alt="Cleaning Team"
+    class="rounded-3xl shadow-2xl"
+  >
+</div>
     </div>
 
-  </div>
 </section>
 <section class="py-12 bg-white">
   <div class="max-w-6xl mx-auto px-6">
@@ -74,7 +86,11 @@
     <div class="bg-white/80 backdrop-blur-xl p-8 rounded-2xl shadow-sm border border-gray-100
             transition duration-300 hover:-translate-y-2 hover:shadow-2xl hover:scale-[1.03]">
 <div class="w-12 h-1 bg-blue-500 rounded mb-4"></div>
-
+<img
+  src="/images/professional_cleaning_service.jpg"
+  alt="House Cleaning"
+  class="w-full h-52 object-cover rounded-xl mb-6 hover:scale-105 transition duration-500"
+/>
    <House class="w-10 h-10 text-blue-500 mb-4" />
     <h3 class="text-xl font-bold mb-3">Maison</h3>
       <p class="text-gray-600">Nettoyage complet de votre domicile avec soin et précision.</p>
@@ -83,6 +99,11 @@
     <div class="bg-white/80 backdrop-blur-xl p-8 rounded-2xl shadow-sm border border-gray-100
             transition duration-300 hover:-translate-y-2 hover:shadow-2xl hover:scale-[1.03]">
 <div class="w-12 h-1 bg-blue-500 rounded mb-4"></div>
+<img
+  src="/images/travail_equipe.jpg"
+  alt="Office Cleaning"
+  class="w-full h-52 object-cover rounded-xl mb-6 hover:scale-105 transition duration-500"
+/>
       <Building2 class="w-10 h-10 text-blue-500 mb-4" />
         <h3 class="text-xl font-bold mb-3">Bureau</h3>
       <p class="text-gray-600">Espaces de travail propres pour plus de productivité.</p>
@@ -91,6 +112,11 @@
     <div class="bg-white/80 backdrop-blur-xl p-8 rounded-2xl shadow-sm border border-gray-100
             transition duration-300 hover:-translate-y-2 hover:shadow-2xl hover:scale-[1.03]">
 <div class="w-12 h-1 bg-blue-500 rounded mb-4"></div>
+<img
+  src="/images/service_propre.jpg"
+  alt="Deep Cleaning"
+  class="w-full h-52 object-cover rounded-xl mb-6 hover:scale-105 transition duration-500"
+/>
       <Sparkles class="w-10 h-10 text-blue-500 mb-4" />
 <h3 class="text-xl font-bold mb-3">Deep Clean</h3>
       <p class="text-gray-600">Nettoyage en profondeur pour un résultat impeccable.</p>
@@ -119,6 +145,35 @@
         “Un service impeccable, rapide et très professionnel.”
       </p>
       <div class="mt-4 font-semibold">— Client satisfait</div>
+    </div>
+
+  </div>
+</section>
+
+<section class="py-24">
+  <div class="max-w-6xl mx-auto px-6">
+
+    <h2 class="text-4xl font-extrabold text-center mb-16">
+      Nos Réalisations
+    </h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <img
+        src="/images/gallery1.jpg"
+        class="rounded-2xl shadow-lg hover:scale-105 transition duration-300"
+      >
+
+      <img
+        src="/images/gallery2.jpg"
+        class="rounded-2xl shadow-lg hover:scale-105 transition duration-300"
+      >
+
+      <img
+        src="/images/gallery3.jpg"
+        class="rounded-2xl shadow-lg hover:scale-105 transition duration-300"
+      >
+
     </div>
 
   </div>
