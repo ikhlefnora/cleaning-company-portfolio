@@ -35,12 +35,15 @@
     </a>
   </div>
 </div>
+
 <div class="hidden md:block">
+
   <img
     src="/images/hero-cleaning.jpg"
     alt="Cleaning Team"
     class="rounded-3xl shadow-2xl"
   >
+  <div class="absolute -z-10 w-72 h-72 bg-cyan-300 rounded-full blur-3xl opacity-30"></div>
 </div>
     </div>
 
@@ -51,22 +54,22 @@
     <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
 
       <div>
-        <h3 class="text-4xl font-bold text-blue-600">500+</h3>
+        <h3 class="text-5xl font-extrabold hover:scale-110 transition text-blue-600">500+</h3>
         <p class="text-gray-600">Clients satisfaits</p>
       </div>
 
       <div>
-        <h3 class="text-4xl font-bold text-blue-600">10+</h3>
+        <h3 class="text-5xl font-extrabold hover:scale-110 transition text-blue-600">10+</h3>
         <p class="text-gray-600">Années d'expérience</p>
       </div>
 
       <div>
-        <h3 class="text-4xl font-bold text-blue-600">24/7</h3>
+        <h3 class="text-5xl font-extrabold hover:scale-110 transition text-blue-600">24/7</h3>
         <p class="text-gray-600">Support client</p>
       </div>
 
       <div>
-        <h3 class="text-4xl font-bold text-blue-600">100%</h3>
+        <h3 class="text-5xl font-extrabold hover:scale-110 transition text-blue-600">100%</h3>
         <p class="text-gray-600">Satisfaction</p>
       </div>
 
@@ -173,6 +176,61 @@
         src="/images/gallery3.jpg"
         class="rounded-2xl shadow-lg hover:scale-105 transition duration-300"
       >
+
+    </div>
+
+  </div>
+</section>
+<section class="py-24 bg-white">
+  <div class="max-w-6xl mx-auto px-6">
+
+    <h2 class="text-4xl font-bold text-center mb-16">
+      Ce que disent nos clients
+    </h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <div class="bg-white p-8 rounded-2xl shadow-lg">
+        <div class="text-yellow-400 text-xl mb-4">
+          ★★★★★
+        </div>
+
+        <p class="text-gray-600">
+          Service exceptionnel et équipe très professionnelle.
+        </p>
+
+        <div class="mt-4 font-bold">
+          Sarah M.
+        </div>
+      </div>
+
+      <div class="bg-white p-8 rounded-2xl shadow-lg">
+        <div class="text-yellow-400 text-xl mb-4">
+          ★★★★★
+        </div>
+
+        <p class="text-gray-600">
+          Nos bureaux n'ont jamais été aussi propres.
+        </p>
+
+        <div class="mt-4 font-bold">
+          Ahmed B.
+        </div>
+      </div>
+
+      <div class="bg-white p-8 rounded-2xl shadow-lg">
+        <div class="text-yellow-400 text-xl mb-4">
+          ★★★★★
+        </div>
+
+        <p class="text-gray-600">
+          Excellent rapport qualité-prix.
+        </p>
+
+        <div class="mt-4 font-bold">
+          Sophie L.
+        </div>
+      </div>
 
     </div>
 
